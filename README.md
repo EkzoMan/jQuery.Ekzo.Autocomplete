@@ -1,7 +1,8 @@
 jQuery.Ekzo.Autocomplete
 ========================
 
-Simple jquery plugin that represents autocomplete options for input fields.
+Simple jquery plugin that represents autocomplete options for input fields. <br />
+<b>Current version checked on <i>IE10, IE11, FireFox 26, Google Chrome 28</i></b>
 
 Plugin provides options:
 -------------------------
