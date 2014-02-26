@@ -1,0 +1,56 @@
+.ekzo-autocomplete{
+
+}
+
+.invalid-value{
+    background-color:#F99;
+    color:#F00;
+}
+
+.navigation-list{
+    background-color:#FFF;
+    list-style:none;
+    position:absolute;
+    padding-left:2px;
+    margin:5px 0;
+    width:auto;
+}
+
+.navigation-list > .navigationListItem{
+    padding:5px;    
+    color:#555;
+    cursor:pointer;
+}
+
+.navigation-list > .navigationListItem > .matchHighlight{
+    font-weight:bold;
+    color:#000;
+}
+
+.navigation-list > .navigationListItem:hover{
+    color:#FFF;
+    background: #4096ee; /* Old browsers */
+    background: -moz-linear-gradient(top, #9eceff 0%, #6aa6e2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9eceff), color-stop(100%,#6aa6e2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #9eceff 0%,#6aa6e2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #9eceff 0%,#6aa6e2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #9eceff 0%,#6aa6e2 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #9eceff 0%,#6aa6e2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9eceff', endColorstr='#6aa6e2',GradientType=0 ); /* IE6-9 */
+}
+
+.navigation-list > .navigationListItem.current{
+    color:#FFF;
+    background: #4096ee; /* Old browsers */
+    background: -moz-linear-gradient(top, #4096ee 0%, #3071b2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4096ee), color-stop(100%,#3071b2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #4096ee 0%,#3071b2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #4096ee 0%,#3071b2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #4096ee 0%,#3071b2 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #4096ee 0%,#3071b2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#3071b2',GradientType=0 ); /* IE6-9 */
+}
+
+.navigation-list > .navigationListItem.current > .matchHighlight,.navigation-list > .navigationListItem:hover > .matchHighlight{
+  color:#FFF;   
+}
